@@ -20,20 +20,20 @@ export const Header = () => {
       </div>
       <div className="flex gap-4">
         <Link
-          href={siteConfig.links.docs}
+          href={'#'}
           target="_blank"
           rel="noreferrer"
           className={buttonVariants()}
         >
-          Sources
+        Contact
         </Link>
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href={'#'}
           className={buttonVariants({ variant: "outline" })}
         >
-          GitHub
+          Read more
         </Link>
       </div>
       <hr className="mt-10" />

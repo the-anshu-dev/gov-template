@@ -108,7 +108,7 @@ export const Calculator = ({
               Amount
             </label>
             <Input
-              placeholder="$0.00"
+              placeholder="₹0.00"
               id="paymentAmount"
               type="text"
               onChange={(e) =>
